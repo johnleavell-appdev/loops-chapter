@@ -18,3 +18,12 @@
 # 20
 
 p "Enter a number:"
+
+number = gets.chomp.to_i
+
+i = 1
+while i <= 10
+  mult = number * i
+  puts "#{mult}"
+  i += 1
+end
