@@ -14,3 +14,11 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+
+word = gets.chomp.downcase.split("")
+
+word.each_with_index do |letter, index|
+
+
+
+p "#{word} is #{word_length} letters long"
