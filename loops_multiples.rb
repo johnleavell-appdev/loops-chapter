@@ -18,4 +18,3 @@
 # 20
 
 p "Enter a number:"
-

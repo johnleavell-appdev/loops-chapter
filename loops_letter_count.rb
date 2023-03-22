@@ -12,13 +12,15 @@
 # 4
 # 5
 # "apple is 5 letters long!"
-
+num = 0
 p "Enter a word:"
 
-word = gets.chomp.downcase.split("")
+word = gets.chomp.downcase
 
-word.each_with_index do |letter, index|
+while num < word.length
+  num += 1
+  p num
+end
 
 
-
-p "#{word} is #{word_length} letters long"
+p "#{word} is #{num} letters long"
